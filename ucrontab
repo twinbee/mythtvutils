@@ -22,7 +22,7 @@
 # 
 # m h  dom mon dow   command
 
-57 * * * * /home/matt/zap2xml.pl -u xxxxxxxxx@zzzz.com -p yyyyyyyyyyyyyy
+57 * * * * /home/matt/zap2xml.pl -u twinbee@gmail.com -p parodius11
 58 * * * * mythfilldatabase --only-update-guide --file --sourceid 1 --xmlfile xmltv.xml
-0 * * * * /home/matt/mythtvutils/mythlink.pl --format %T/%T\ -\ %oY.%om.%od\ -\ %S
+0 * * * * /home/matt/mythtvutils/mythlink.pl
 0 0 1 * * /home/matt/mythtvutils/mythconverg_backup.pl
