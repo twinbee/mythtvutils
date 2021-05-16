@@ -8,12 +8,10 @@ wget https://raw.githubusercontent.com/shuaiscott/zap2xml/master/zap2xml.pl
 
 chmod a+x zap2xml.pl
 
-./zap2xml.pl -u <zap2it email> -p <zap2it password>
+./zap2xml.pl -u twinbee@gmail.com -p  parodius11
 
 mythfilldatabase --only-update-guide --file --sourceid 1 --xmlfile xmltv.xml
-
+cat ucrontab
+pause
 crontab -e
 
-#57 * * * * /home/matt/zap2xml.pl -u <> -p <> 
-
-#58 * * * * mythfilldatabase --only-update-guide --file --sourceid 1 --xmlfile xmltv.xml

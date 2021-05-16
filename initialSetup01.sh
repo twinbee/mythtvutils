@@ -18,6 +18,6 @@ mythfrontend
 
 #reboot at this point so that you and su will be added to the MythTV group
 
-sudo shutdown -r now
+#sudo shutdown -r now
 
 

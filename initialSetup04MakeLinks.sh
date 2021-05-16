@@ -4,7 +4,8 @@ chmod a+x mythlink.pl
 
 #install plex
 echo "wget <latest plex link>"
-echo "sudo dpkg -i <plex.deb>"
+wget https://downloads.plex.tv/plex-media-server-new/1.22.1.4228-724c56e62/debian/plexmediaserver_1.22.1.4228-724c56e62_amd64.deb
+echo sudo dpkg -i plexmediaserver_1.22.1.4228-724c56e62_amd64.deb
 echo "http://hostname:32400/web"
 
  
