@@ -126,7 +126,11 @@ def delete_recs(recs):
         while True:
             if res == 'yes':
                 for rec in recs:
-                    rec.delete(True, True)
+                    try:
+                    	rec.delete(True, True)
+                    except MythError:
+                        name = '{0.hostname}: {0.title}'.format(rec)
+                        print("Ignoring: Failed to delete '" + name + "'")
                 break
             elif res == 'no':
                 break
