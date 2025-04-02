@@ -6,7 +6,7 @@
 # http://<mythtv>:6544 under source, select schedules Direct
 
 #then interactively go through 
-tv_grab_zz_sdjson --configure
+#tv_grab_zz_sdjson --configure
 
 tv_grab_zz_sdjson --output mythtv_test.xml --days 1 --config-file ~/.mythtv/s4.xmltv
 
